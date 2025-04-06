@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 
+
 function Navbar({menuOpen, setMenuOpen}) {
 
     useEffect( () => {
@@ -22,6 +23,9 @@ function Navbar({menuOpen, setMenuOpen}) {
                     <a href="#about" className="text-gray-300 hover:text-white transition-colors hover:scale-110"> About </a>
                     <a href="#projects" className="text-gray-300 hover:text-white transition-colors hover:scale-110"> Projects </a>
                     <a href="#contact" className="text-gray-300 hover:text-white transition-colors hover:scale-110"> Contact </a>
+                    <a href="#contact" className="text-gray-300 hover:text-white transition-colors hover:scale-110"> Resume </a>
+                   
+                    
                 </div>
             </div>
         </div>
